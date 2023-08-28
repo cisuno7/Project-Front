@@ -10,13 +10,13 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<LoginPage />} />
-          <Route path="/home" element={<HomePage />} />
-          <Route path="/formulario" element={<FormularioPage />} />
-          <Route path="/tabela" element={<TabelaPage />} />
+          <Route path="/Home" element={<HomePage />} />
+          <Route path="/Formulario" element={<FormularioPage />} />
+          <Route path="/Tabela" element={<TabelaPage />} />
         </Routes>
       </Router>
     </div>
   );
-}
+}  
 
 export default App;
